@@ -7,6 +7,7 @@ zig
 rust cargo
 bflat
 dotnet 8.0
+hyperfine
 ```
 ## Configurations
 ```

@@ -1,1 +1,9 @@
 /_old_zig-odin-cs
+/hiplanet/cs/.idea
+/hiplanet/cs/bin
+/hiplanet/cs/obj
+/hiplanet/cs_publishAOT.exe
+/hiplanet/cs_size.exe
+/hiplanet/cs_time.exe
+hiplanet/odin_size.exe
+hiplanet/odin_speed.exe

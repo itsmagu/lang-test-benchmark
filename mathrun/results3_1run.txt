@@ -1,0 +1,37 @@
+Benchmark 1: .\cs_publishAOT.exe
+  Time (abs ≡):         18.8 ms               [User: 15.3 ms, System: 0.0 ms]
+ 
+Benchmark 2: .\cs_size.exe
+  Time (abs ≡):         18.3 ms               [User: 0.0 ms, System: 0.0 ms]
+ 
+Benchmark 3: .\cs_time.exe
+  Time (abs ≡):         18.3 ms               [User: 15.3 ms, System: 0.0 ms]
+ 
+Benchmark 4: .\odin_size.exe
+  Time (abs ≡):          3.8 ms               [User: 0.0 ms, System: 0.0 ms]
+ 
+Benchmark 5: .\odin_speed.exe
+  Time (abs ≡):          4.0 ms               [User: 0.0 ms, System: 0.0 ms]
+ 
+Benchmark 6: .\rust.exe
+  Time (abs ≡):          4.2 ms               [User: 0.0 ms, System: 0.0 ms]
+ 
+Benchmark 7: .\zig_safe.exe
+  Time (abs ≡):          3.7 ms               [User: 0.0 ms, System: 0.0 ms]
+ 
+Benchmark 8: .\zig_size.exe
+  Time (abs ≡):          3.6 ms               [User: 0.0 ms, System: 0.0 ms]
+ 
+Benchmark 9: .\zig_speed.exe
+  Time (abs ≡):          3.7 ms               [User: 0.0 ms, System: 0.0 ms]
+ 
+Summary
+  .\zig_size.exe ran
+    1.05 times faster than .\zig_speed.exe
+    1.05 times faster than .\zig_safe.exe
+    1.07 times faster than .\odin_size.exe
+    1.13 times faster than .\odin_speed.exe
+    1.17 times faster than .\rust.exe
+    5.14 times faster than .\cs_time.exe
+    5.15 times faster than .\cs_size.exe
+    5.29 times faster than .\cs_publishAOT.exe

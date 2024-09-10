@@ -17,10 +17,6 @@ zig do be consistantly hitting that top spot in **my tests**
 while odin and rust runs at x1.20 to x1.80 times that of zig..
 Still, syntactically I am in love with Odin. Odin lang <3
 
-#### My unbiased opinion of Odin lang
-
-Odin <3
-
 #### My inaccruate evaluation of Zig
 
 Also, recently learned about comptime. This sounded like a dream come true!
@@ -40,6 +36,16 @@ I might also be a bit egotisic and like to alloc and free myself.
 Otherwise, I like. Shadowing should be added to all languages to
 stop me from re-using "dead" variables. The borrow checker makes
 sense but is annoying. Over-all It's a bit too high level for me.
+
+#### My unbiased opinion of Odin lang
+
+Odin <3
+
+# Building and Running
+
+Feel free to use whatever compiler + link you want.
+If you want to use the same as me please read BuildAll.ps1 powershell script (They are bash compliant).
+
 
 ## Depends
 ```

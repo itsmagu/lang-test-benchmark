@@ -1,9 +1,11 @@
+> BEWARE! UNINFORMED OPINIONS AHEAD! I DO NOT HAVE 100% CORRECT UNDERSTANDING OF ALL THESE LANGUAGES! IF I DID I WOULD NOT NEED TO TEST THEM!
+
 ## Info
 A few examples made in a selection of languages to analyze their use and how fun they are to write in.
 I am heavly biased towards Odin and C#. But I respect and consider the performance gain in Zig and Rust.
 I have 6+ years experiance with C# and have pressed it for everything it got, I need something new.
 I Love Odin but glare at the speed and comptime of Zig.
-I enjoy Rust's shadowing, I do not enjoy the bloat.
+I enjoy Rust's shadowing, but I do not enjoy the "bloat" feel and lifetime/async complexity.
 I think Zig is promising and a great option, but I hate the error handling and random complexity.
 
 Overall, I think C# is a great scripting langauge but I don't want to use unsafe anymore,

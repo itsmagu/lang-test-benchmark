@@ -52,6 +52,9 @@ Odin <3
 Feel free to use whatever compiler + link you want.
 If you want to use the same as me please read BuildAll.ps1 powershell script (They are bash compliant).
 My tests are done with hyperfine.
+```
+hyperfine --warmup 9 --runs 3 '.\cs_publishAOT.exe' '.\cs_size.exe' '.\cs_time.exe' '.\odin_size.exe' '.\odin_speed.exe' '.\rust.exe' '.\zig_safe.exe' '.\zig_size.exe' '.\zig_speed.exe' '.\cs\bin\Release\net8.0\cs.exe' '.\cpp_os.exe' '.\cpp_o2.exe' '.\cpp_o3.exe' '.\odin_aggressive.exe' '.\zig_cpp_Os.exe' '.\zig_cpp_O3.exe' '.\zig_cpp_O2.exe'
+```
 
 ## Depends
 ```

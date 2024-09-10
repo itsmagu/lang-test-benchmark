@@ -5,3 +5,5 @@
 *obj
 *target
 *.zig-cache
+*.pdb
+*.lock

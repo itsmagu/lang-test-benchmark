@@ -43,6 +43,7 @@ sense but is annoying. Over-all It's a bit too high level for me.
 
 ## Depends
 ```
+clang++
 odin
 zig
 rust cargo
@@ -55,9 +56,18 @@ hyperfine
 cs_size is bflat optimized for size
 cs_time is bflat optimized for speed
 cs_publishAOT is dotnet 8.0 compiled to native
+cs is the dotnet runtime and dll (This should always be the slowest)
 odin_size is odin optimized for size
 odin_speed is odin optimized for speed
+odin_aggressive is odin optimized to not comply with the language standard (might be unstable)
 zig_speed is zig optimized for speed
 zig_size is zig optimized for size
 zig_safe is zig with safty checks
+rust is rust :)
+cpp_O2 is clang++ with O2
+cpp_O3 is clang++ with O3
+cpp_Os is clang++ with Os
+zig_cpp_O2 is zig c++ with O2
+zig_cpp_O3 is zig c++ with O3
+zig_cpp_Os is zig c++ with Os
 ```

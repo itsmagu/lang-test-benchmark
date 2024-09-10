@@ -71,14 +71,14 @@ hyperfine
 -- C# --
 cs_size 			is bflat optimized for size
 cs_time 			is bflat optimized for speed
-cs_publishAOT 		is dotnet 8.0 compiled to native
-cs 					is the dotnet runtime and dll (This should always be the slowest)
+cs_publishAOT		is dotnet 8.0 compiled to native
+cs					is the dotnet runtime and dll (This should always be the slowest)
 -- Odin --
-odin_size 			is odin optimized for size
-odin_speed 			is odin optimized for speed
-odin_aggressive 	is odin optimized to not comply with the language standard (might be unstable)
+odin_size			is odin optimized for size
+odin_speed			is odin optimized for speed
+odin_aggressive		is odin optimized to not comply with the language standard (might be unstable)
 -- Zig --
-zig_speed 			is zig optimized for speed
+zig_speed			is zig optimized for speed
 zig_size 			is zig optimized for size
 zig_safe 			is zig with safty checks
 -- Rust --

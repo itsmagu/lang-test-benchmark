@@ -105,7 +105,7 @@ of the 3 languages I know the least about, a common trend with these 3
 languages (Cpp, Zig, Rust) is that they have a -INSERT FRIENDLY WORD FOR LARGE HERE-
 feature set. Not that I have a problem with that, I love C#. But compared to Odin that 
 has a single file with every and all features in it, Rust feels monolitic with no other
-entry then from the top. This may all change, wheter that is me or the Rust.
+entry then from the top. This may all change, wheter that be me or Rust.
 
 ### My unbiased opinion of Odin lang
 

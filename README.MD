@@ -11,6 +11,12 @@ Odin should not feature freeze yet,
 Rust should have feature freezed years ago,
 Zig needs time...
 
+From my recent addition of cpp into the examples, 
+i have deducted that odin can mostly compete with cpp.
+They get very close results beat eachother from time to time.
+The cool thin with zig is that I could still use c/cpp which is cool.
+I don't really have anything against cpp, it's close to my beloved c#.
+
 ### However
 
 zig do be consistantly hitting that top spot in **my tests**
@@ -45,7 +51,7 @@ Odin <3
 
 Feel free to use whatever compiler + link you want.
 If you want to use the same as me please read BuildAll.ps1 powershell script (They are bash compliant).
-
+My tests are done with hyperfine.
 
 ## Depends
 ```

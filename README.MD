@@ -6,7 +6,7 @@ The root contains different projects like "Hi Planet" which is a Hello World pro
 Inside of Hi Planet you will find respective subdirectories for each language.
 The BuildAll.ps1 (which is also bash complient if you rename it)
 will build each project variant inside of their own subdirectories.
-It will then **copy** each resulting binary (except for the C# runtime dll/exe) into the Hi Planet directory. You are then free to run hyperfine!
+It will then **copy** each resulting binary (except for the C# runtime dll/exe) into the Hi Planet directory. You are then free to run hyperfine for benchmarks!
 
 # Building and Running
 

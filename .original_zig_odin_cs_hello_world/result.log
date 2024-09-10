@@ -1,0 +1,31 @@
+Benchmark 1: .\cs_size.exe Sigge
+  Time (mean ± σ):       8.4 ms ±   0.4 ms    [User: 0.9 ms, System: 0.2 ms]
+  Range (min … max):     7.7 ms …  13.2 ms    500 runs
+ 
+Benchmark 2: .\cs_speed.exe Sigge
+  Time (mean ± σ):       8.3 ms ±   0.2 ms    [User: 0.7 ms, System: 0.4 ms]
+  Range (min … max):     7.8 ms …  10.0 ms    500 runs
+ 
+Benchmark 3: .\odin_size.exe Sigge
+  Time (mean ± σ):       3.9 ms ±   0.3 ms    [User: 0.1 ms, System: 0.2 ms]
+  Range (min … max):     3.6 ms …   6.1 ms    500 runs
+ 
+Benchmark 4: .\odin_speed.exe Sigge
+  Time (mean ± σ):       3.9 ms ±   0.3 ms    [User: 0.1 ms, System: 0.1 ms]
+  Range (min … max):     3.3 ms …   5.7 ms    500 runs
+ 
+Benchmark 5: .\zig_size.exe Sigge
+  Time (mean ± σ):       4.0 ms ±   0.2 ms    [User: 0.0 ms, System: 0.1 ms]
+  Range (min … max):     3.7 ms …   5.6 ms    500 runs
+ 
+Benchmark 6: .\zig_speed.exe Sigge
+  Time (mean ± σ):       4.0 ms ±   0.2 ms    [User: 0.1 ms, System: 0.2 ms]
+  Range (min … max):     3.5 ms …   5.6 ms    500 runs
+ 
+Summary
+  .\odin_speed.exe Sigge ran
+    1.00 ± 0.09 times faster than .\odin_size.exe Sigge
+    1.03 ± 0.09 times faster than .\zig_size.exe Sigge
+    1.04 ± 0.09 times faster than .\zig_speed.exe Sigge
+    2.14 ± 0.15 times faster than .\cs_speed.exe Sigge
+    2.16 ± 0.17 times faster than .\cs_size.exe Sigge

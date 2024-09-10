@@ -79,7 +79,7 @@ rust is rust :)
 cpp_O2 is clang++ with O2
 cpp_O3 is clang++ with O3
 cpp_Os is clang++ with Os
-zig_cpp_O2 is zig c++ with O2
-zig_cpp_O3 is zig c++ with O3
-zig_cpp_Os is zig c++ with Os
+zig_cpp_O2 is zig c++ with O2 (cpp code)
+zig_cpp_O3 is zig c++ with O3 (cpp code)
+zig_cpp_Os is zig c++ with Os (cpp code)
 ```

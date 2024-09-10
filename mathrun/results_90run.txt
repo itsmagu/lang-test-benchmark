@@ -1,0 +1,86 @@
+Benchmark 1: .\cs_publishAOT.exe
+  Time (mean ± σ):      17.4 ms ±   0.3 ms    [User: 9.4 ms, System: 0.0 ms]
+  Range (min … max):    17.0 ms …  18.6 ms    90 runs
+ 
+Benchmark 2: .\cs_size.exe
+  Time (mean ± σ):      17.9 ms ±   1.0 ms    [User: 9.5 ms, System: 0.0 ms]
+  Range (min … max):    17.2 ms …  27.2 ms    90 runs
+ 
+Benchmark 3: .\cs_time.exe
+  Time (mean ± σ):      17.6 ms ±   1.1 ms    [User: 1.7 ms, System: 0.3 ms]
+  Range (min … max):    17.0 ms …  27.2 ms    90 runs
+ 
+Benchmark 4: .\odin_size.exe
+  Time (mean ± σ):       3.6 ms ±   0.2 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     3.3 ms …   5.0 ms    90 runs
+ 
+Benchmark 5: .\odin_speed.exe
+  Time (mean ± σ):       3.6 ms ±   0.2 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     3.3 ms …   4.8 ms    90 runs
+ 
+Benchmark 6: .\rust.exe
+  Time (mean ± σ):       4.0 ms ±   0.2 ms    [User: 0.0 ms, System: 0.2 ms]
+  Range (min … max):     3.6 ms …   5.3 ms    90 runs
+ 
+Benchmark 7: .\zig_safe.exe
+  Time (mean ± σ):       3.1 ms ±   0.3 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     2.9 ms …   4.7 ms    90 runs
+ 
+Benchmark 8: .\zig_size.exe
+  Time (mean ± σ):       3.1 ms ±   0.2 ms    [User: 0.0 ms, System: 0.2 ms]
+  Range (min … max):     2.8 ms …   4.1 ms    90 runs
+ 
+Benchmark 9: .\zig_speed.exe
+  Time (mean ± σ):       3.0 ms ±   0.1 ms    [User: 0.2 ms, System: 0.0 ms]
+  Range (min … max):     2.8 ms …   3.7 ms    90 runs
+ 
+Benchmark 10: .\cs\bin\Release\net8.0\cs.exe
+  Time (mean ± σ):      43.7 ms ±   0.7 ms    [User: 16.3 ms, System: 7.5 ms]
+  Range (min … max):    42.9 ms …  48.8 ms    90 runs
+ 
+Benchmark 11: .\cpp_os.exe
+  Time (mean ± σ):       3.7 ms ±   0.2 ms    [User: 0.2 ms, System: 0.3 ms]
+  Range (min … max):     3.4 ms …   4.5 ms    90 runs
+ 
+Benchmark 12: .\cpp_o2.exe
+  Time (mean ± σ):       3.6 ms ±   0.2 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     3.3 ms …   5.0 ms    90 runs
+ 
+Benchmark 13: .\cpp_o3.exe
+  Time (mean ± σ):       3.7 ms ±   0.3 ms    [User: 0.0 ms, System: 0.2 ms]
+  Range (min … max):     3.4 ms …   5.1 ms    90 runs
+ 
+Benchmark 14: .\odin_aggressive.exe
+  Time (mean ± σ):       3.6 ms ±   0.2 ms    [User: 0.0 ms, System: 0.2 ms]
+  Range (min … max):     3.4 ms …   4.4 ms    90 runs
+ 
+Benchmark 15: .\zig_cpp_Os.exe
+  Time (mean ± σ):       3.7 ms ±   0.2 ms    [User: 0.0 ms, System: 0.2 ms]
+  Range (min … max):     3.5 ms …   4.7 ms    90 runs
+ 
+Benchmark 16: .\zig_cpp_O3.exe
+  Time (mean ± σ):       3.7 ms ±   0.1 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     3.5 ms …   4.1 ms    90 runs
+ 
+Benchmark 17: .\zig_cpp_O2.exe
+  Time (mean ± σ):       3.8 ms ±   0.2 ms    [User: 0.0 ms, System: 0.0 ms]
+  Range (min … max):     3.5 ms …   5.1 ms    90 runs
+ 
+Summary
+  .\zig_speed.exe ran
+    1.03 ± 0.09 times faster than .\zig_size.exe
+    1.03 ± 0.10 times faster than .\zig_safe.exe
+    1.18 ± 0.10 times faster than .\odin_size.exe
+    1.18 ± 0.08 times faster than .\odin_speed.exe
+    1.19 ± 0.09 times faster than .\cpp_o2.exe
+    1.19 ± 0.08 times faster than .\odin_aggressive.exe
+    1.21 ± 0.11 times faster than .\cpp_o3.exe
+    1.22 ± 0.07 times faster than .\zig_cpp_O3.exe
+    1.23 ± 0.10 times faster than .\cpp_os.exe
+    1.23 ± 0.08 times faster than .\zig_cpp_Os.exe
+    1.24 ± 0.09 times faster than .\zig_cpp_O2.exe
+    1.30 ± 0.09 times faster than .\rust.exe
+    5.73 ± 0.28 times faster than .\cs_publishAOT.exe
+    5.78 ± 0.44 times faster than .\cs_time.exe
+    5.87 ± 0.44 times faster than .\cs_size.exe
+   14.39 ± 0.70 times faster than .\cs\bin\Release\net8.0\cs.exe

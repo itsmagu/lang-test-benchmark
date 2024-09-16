@@ -6,7 +6,9 @@ pub fn main() !void {
     cool();
     moveMe();
 
-    print("{}",.{calcPtrDist(moveMe,nice)});
+    print("cool {} \n\t{} from nice",.{cool,calcPtrDist(cool,nice)});
+    print("nice {} \n\t{} from moveMe",.{nice,calcPtrDist(nice,moveMe)});
+    print("moveMe {}",.{moveMe});
 }
 
 fn moveMe() void {

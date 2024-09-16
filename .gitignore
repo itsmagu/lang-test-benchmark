@@ -3,6 +3,7 @@
 *bin
 *obj
 *target
+*buildDir
 *.zig-cache
 *.pdb
 *.lock

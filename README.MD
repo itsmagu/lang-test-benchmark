@@ -120,3 +120,4 @@ The syntax is great, the speed is fair and the tooling works...
 
 However, it's the least popular of the languages that I use and have tested, and that is a noticeable fact 
 while programming since premade solutions to something often ends up being me translating C examples.
+And one thing I miss from my poor primitive Odin is a way to make complex types, like C#'s interfaces or Rust's traits which I like a lot.

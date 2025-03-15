@@ -118,7 +118,7 @@ If you want to know anything about the language the home page is just a large ov
 This approach to documentation has been Odin's strongest favor for me. CTRL+F anything from that page and you will see what, how and why.
 The syntax is great, the speed is fair and the tooling works...
 One perk of Odin that suprised me is that since there is often only one way to do a primitive thing, it is really easy to read other peoples code. Since thier code will most likely end up looking like you own code in some strange ways.
-It's hard to explain but something like the fact that "while" is removed in favor of a empty "for" loop means that all loops follow the same syntax and style. Instead of the cursed "do {} while ()" loop from C-like languages.
+It's hard to explain but something like the fact that "while" is removed in favor of a empty "for" loop means that all loops follow the same syntax and style. Instead of the brain-gymnastic syntax of "do {} while ()" loops from C-like languages that you might be unfortunate to find sometimes.
 
 However, it's the least popular of the languages that I use and have tested, and that is a noticeable fact 
 while programming since premade solutions to something often ends up being me translating C examples.

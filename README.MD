@@ -117,7 +117,7 @@ I have lurked in the Odin discord and even asked the creator ginger bill for cla
 If you want to know anything about the language the home page is just a large overview listing every feature of the language.
 This approach to documentation has been Odin's strongest favor for me. CTRL+F anything from that page and you will see what, how and why.
 The syntax is great, the speed is fair and the tooling works...
-One perk of Odin that suprised me is that since there is often only one way to do a primitive thing, it is really easy to read other peoples code. Since they will most likly end up looking like you own in some strange ways.
+One perk of Odin that suprised me is that since there is often only one way to do a primitive thing, it is really easy to read other peoples code. Since thier code will most likely end up looking like you own code in some strange ways.
 It's hard to explain but something like the fact that "while" is removed in favor of a empty "for" loop means that all loops follow the same syntax and style. Instead of the cursed "do {} while ()" loop from C-like languages.
 
 However, it's the least popular of the languages that I use and have tested, and that is a noticeable fact 

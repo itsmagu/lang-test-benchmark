@@ -90,24 +90,33 @@ and massive compile time costs.
 
 ### My mixed feelings with Rust
 
-I have trust issues and thus believe the compiler is lying to me.
+Programming gives me trust issues and thus I believe the compiler is lying to me.
 I might also be a bit egotisic and like to alloc and free myself.
-Otherwise, I like. Shadowing should be added to all languages to
-stop me from re-using "dead" variables. The borrow checker makes
+Otherwise, I like Rust. Shadowing should be added to all languages to
+stop me from 3 variables with "dead" data in them. The borrow checker makes
 sense but is annoying. Over-all It's a bit too high level for me.
 
-I think my issues with Rust stems from the fact that I think GC is
-nice when I don't really care about World Freezing and manually
-managing my memory when I do care. I enjoy breaking encapsulation by
-reaching out into main memory from time to time. In Rust data does not 
-feel presistent to me, it's much more scope focused. Still, Rust is one
-of the 3 languages I know the least about, a common trend with these 3
-languages (Cpp, Zig, Rust) is that they have a -INSERT FRIENDLY WORD FOR LARGE HERE-
-feature set. Not that I have a problem with that, I love C#. But compared to Odin that 
-has a single file with every and all features in it, Rust feels monolitic with no other
-entry then from the top. This may all change, wheter that be me or Rust.
+I think my issues with Rust stems from the fact that It's not really GC and not really manual memory management.
+I enjoy breaking encapsulation by reaching out into main memory from time to time. 
+In Rust data does not feel presistent to me, it's much more scope focused. 
+Still, Rust is one of the 3 languages I know the least about, a common trend with these 3
+languages (Cpp, Zig, Rust) is that they have a bloated feature set.
+Not that I have a problem with that, I love C#. But compared to Odin that 
+has a quite medium sized overview file with every and all features you will ever use as their home page,
+Rust feels monolitic with no other entry then from the top.
+This may all change, whether that be me or Rust.
 
 ### My unbiased opinion of Odin lang
 
 Odin <3
 
+### Update about my unbiased opinion of Odin lang
+
+I have now spent a good chunk of 6 months only used Odin. I still think it's great!
+I have lurked in the Odin discord and even asked the creator ginger bill for clarification of design decisions.
+If you want to know anything about the langauge the home page is just a large overview listing every feature of the language.
+This approach to documentation has been Odin's strongest favor for me. CTRL+F anything from that page and you will see what, how and why.
+The syntax is great, the speed is fair and the tooling works...
+
+However, it's the least popular of the languages that I use and have tested, and that is a noticeable fact 
+while programming since premade solutions to something often ends up being me translating C examples.

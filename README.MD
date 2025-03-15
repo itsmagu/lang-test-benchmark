@@ -112,7 +112,7 @@ Odin <3
 
 ### Update about my unbiased opinion of Odin lang
 
-I have now spent a good chunk of 6 months only used Odin. I still think it's great!
+I have now spent a good chunk of 6 months only using Odin. I still think it's great!
 I have lurked in the Odin discord and even asked the creator ginger bill for clarification of design decisions.
 If you want to know anything about the langauge the home page is just a large overview listing every feature of the language.
 This approach to documentation has been Odin's strongest favor for me. CTRL+F anything from that page and you will see what, how and why.

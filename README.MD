@@ -60,7 +60,7 @@ I Love Odin but glare at the speed and comptime of Zig.
 I enjoy Rust's shadowing, but I do not enjoy the "bloat" feel and lifetime/async complexity.
 I think Zig is promising and a great option, but I hate the error handling and random complexity.
 
-Overall, I think C# is a great scripting langauge but I don't want to use unsafe anymore,
+Overall, I think C# is a great scripting language but I don't want to use unsafe anymore,
 Odin should not feature freeze yet,
 Rust should have feature freezed years ago,
 Zig have a bright future but blury present...
@@ -114,9 +114,11 @@ Odin <3
 
 I have now spent a good chunk of 6 months only using Odin. I still think it's great!
 I have lurked in the Odin discord and even asked the creator ginger bill for clarification of design decisions.
-If you want to know anything about the langauge the home page is just a large overview listing every feature of the language.
+If you want to know anything about the language the home page is just a large overview listing every feature of the language.
 This approach to documentation has been Odin's strongest favor for me. CTRL+F anything from that page and you will see what, how and why.
 The syntax is great, the speed is fair and the tooling works...
+One perk of Odin that suprised me is that since there is often only one way to do a primitive thing, it is really easy to read other peoples code. Since they will most likly end up looking like you own in some strange ways.
+It's hard to explain but something like the fact that "while" is removed in favor of a empty "for" loop means that all loops follow the same syntax and style. Instead of the cursed "do {} while ()" loop from C-like languages.
 
 However, it's the least popular of the languages that I use and have tested, and that is a noticeable fact 
 while programming since premade solutions to something often ends up being me translating C examples.

@@ -88,6 +88,12 @@ But instead, from what I can see atm, it's just a manual way of doing generics
 and passing types and maybe generate a few consts here and there for performance gain
 and massive compile time costs.
 
+(Update)
+I have now started to do some small testing in zig. It has the @embedFile macro/thing
+that can compile files into the binary so that is cool. I have recently looked into 
+zig thanks to it's C compiler witch is easier to install then normal c compilers and 
+very convenient.
+
 ### My mixed feelings with Rust
 
 Programming gives me trust issues and thus I believe the compiler is lying to me.

@@ -54,4 +54,4 @@ cl /c .\cpp\main.cpp /O2
 link .\main.obj
 mv .\main.exe msvc_cpp_O3.exe -Force
 rm .\main.obj
-hyperfine --warmup 200 --runs 500 .\zig_safe.exe .\zig_speed.exe .\zig_size.exe .\rust.exe .\cpp_O2.exe .\cpp_O3.exe .\cpp_Os.exe .\odin_aggressive.exe .\odin_size.exe .\odin_speed.exe .\zig_cpp_O2.exe .\zig_cpp_O3.exe .\zig_cpp_Os.exe .\cs_publishAOT.exe .\cs\bin\Release\net8.0\cs.exe .\msvc_cpp_O2.exe .\msvc_cpp_O3.exe
+hyperfine --warmup 200 --runs 500 .\zig_speed.exe .\zig_size.exe .\rust.exe .\cpp_O2.exe .\cpp_Os.exe .\odin_aggressive.exe .\zig_safe.exe .\odin_size.exe .\msvc_cpp_O2.exe  .\odin_speed.exe .\zig_cpp_O3.exe .\cpp_O3.exe  .\zig_cpp_Os.exe .\cs_publishAOT.exe .\zig_cpp_O2.exe .\cs\bin\Release\net8.0\cs.exe .\msvc_cpp_O3.exe

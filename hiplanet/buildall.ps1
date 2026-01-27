@@ -12,9 +12,9 @@ cp .\bin\Release\net8.0\win-x64\native\cs.exe ..\cs_publishAOT.exe
 cd ..
 echo "Building Odin <3"
 cd .\odin\
-odin build . -o:speed -out:odin_speed.exe
-odin build . -o:size -out:odin_size.exe
-odin build . -o:aggressive -out:odin_aggressive.exe
+odin build . -o:speed -out:odin_speed.exe -no-bounds-check
+odin build . -o:size -out:odin_size.exe -no-bounds-check
+odin build . -o:aggressive -out:odin_aggressive.exe -no-bounds-check
 cp odin_speed.exe ..\odin_speed.exe
 cp odin_size.exe ..\odin_size.exe
 cp odin_aggressive.exe ..\odin_aggressive.exe
@@ -54,4 +54,4 @@ cl /c .\cpp\main.cpp /O2
 link .\main.obj
 mv .\main.exe msvc_cpp_O3.exe -Force
 rm .\main.obj
-hyperfine --warmup 200 --runs 500 .\zig_speed.exe .\zig_size.exe .\rust.exe .\cpp_O2.exe .\cpp_Os.exe .\odin_aggressive.exe .\zig_safe.exe .\odin_size.exe .\msvc_cpp_O2.exe  .\odin_speed.exe .\zig_cpp_O3.exe .\cpp_O3.exe  .\zig_cpp_Os.exe .\cs_publishAOT.exe .\zig_cpp_O2.exe .\cs\bin\Release\net8.0\cs.exe .\msvc_cpp_O3.exe
+# hyperfine --warmup 200 --runs 500 .\zig_speed.exe .\zig_size.exe .\rust.exe .\cpp_O2.exe .\cpp_Os.exe .\odin_aggressive.exe .\zig_safe.exe .\odin_size.exe .\msvc_cpp_O2.exe  .\odin_speed.exe .\zig_cpp_O3.exe .\cpp_O3.exe  .\zig_cpp_Os.exe .\cs_publishAOT.exe .\zig_cpp_O2.exe .\cs\bin\Release\net8.0\cs.exe .\msvc_cpp_O3.exe

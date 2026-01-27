@@ -4,11 +4,11 @@ cd .\cs\
 echo "Building C# with bflat, dotnet runtime and dotnet nativeAOT"
 dotnet publish
 dotnet build -c Release
-bflat build .\Program.cs -o cs_time.exe -Ot --no-debug-info
-bflat build .\Program.cs -o cs_size.exe -Os --no-debug-info
+# bflat build .\Program.cs -o cs_time.exe -Ot --no-debug-info
+# bflat build .\Program.cs -o cs_size.exe -Os --no-debug-info
 cp .\bin\Release\net8.0\win-x64\native\cs.exe ..\cs_publishAOT.exe
-cp cs_time.exe ..\cs_time.exe
-cp cs_size.exe ..\cs_size.exe
+# cp cs_time.exe ..\cs_time.exe
+# cp cs_size.exe ..\cs_size.exe
 cd ..
 cd .\odin\
 echo "Building Odin <3"
@@ -26,12 +26,9 @@ cp .\target\release\rust.exe ..\rust.exe
 cd ..
 cd .\zig\
 echo "Building Zig"
-zig build --release=safe -p .\zig_safe
-zig build --release=fast -p .\zig_speed
-zig build --release=small -p .\zig_size
-cp .\zig_safe\bin\zig.exe ..\zig_safe.exe
-cp .\zig_speed\bin\zig.exe ..\zig_speed.exe
-cp .\zig_size\bin\zig.exe ..\zig_size.exe
+zig build-exe .\main.zig -O ReleaseFast -femit-bin="../zig_speed.exe"
+zig build-exe .\main.zig -O ReleaseSmall -femit-bin="../zig_size.exe"
+zig build-exe .\main.zig -O ReleaseSafe -femit-bin="../zig_safe.exe"
 cd ..
 cd .\cpp\
 echo "Building C++ with clang++ and zig c++"

@@ -1,9 +1,9 @@
-#include <cstdio>
+#include <iostream>
 
 int main(int argc,char *argv[]){
-	printf("Hi Planet");
+	std::cout << "Hi Planet\n";
 	if (argc > 1) {
-		printf("\nAlso passed with %s",argv[1]);
+		std::cout << "Also passed with " << argv[1] << '\n'; 
 	}
 	return 0;
 }

@@ -1,4 +1,5 @@
 ## Lang Benchmark
+Benchmarks are not fact, but they provide insight
 
 - Zig
 - Odin

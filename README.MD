@@ -1,6 +1,8 @@
 ## Lang Benchmark
 Benchmarks are not fact, but they provide insight
 
+Windows Only Somewhat
+
 - Zig
 - Odin
 - Rust

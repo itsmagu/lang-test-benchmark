@@ -1,0 +1,146 @@
+Benchmark 1: .\zig_speed.exe
+  Time (mean ± σ):       1.1 ms ±   0.8 ms    [User: 1.4 ms, System: 2.9 ms]
+  Range (min … max):     0.0 ms …   3.0 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 2: .\zig_size.exe
+  Time (mean ± σ):       1.6 ms ±   0.6 ms    [User: 1.2 ms, System: 3.3 ms]
+  Range (min … max):     0.0 ms …   3.2 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 3: .\zig_win_speed.exe
+  Time (mean ± σ):       2.4 ms ±   0.3 ms    [User: 1.9 ms, System: 3.4 ms]
+  Range (min … max):     1.8 ms …   3.5 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 4: .\rust.exe
+  Time (mean ± σ):       2.9 ms ±   0.3 ms    [User: 2.6 ms, System: 4.5 ms]
+  Range (min … max):     2.3 ms …   5.2 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 5: .\cpp_O2.exe
+  Time (mean ± σ):       2.6 ms ±   0.3 ms    [User: 1.7 ms, System: 3.6 ms]
+  Range (min … max):     1.8 ms …   3.9 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 6: .\zig_win_size.exe
+  Time (mean ± σ):       2.5 ms ±   0.3 ms    [User: 1.3 ms, System: 3.7 ms]
+  Range (min … max):     1.9 ms …   3.7 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 7: .\cpp_Os.exe
+  Time (mean ± σ):       2.7 ms ±   0.3 ms    [User: 1.4 ms, System: 3.7 ms]
+  Range (min … max):     1.8 ms …   4.5 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 8: .\odin_aggressive.exe
+  Time (mean ± σ):       3.0 ms ±   0.3 ms    [User: 1.3 ms, System: 2.9 ms]
+  Range (min … max):     2.4 ms …   4.3 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 9: .\zig_safe.exe
+  Time (mean ± σ):       2.1 ms ±   0.2 ms    [User: 1.2 ms, System: 3.6 ms]
+  Range (min … max):     1.6 ms …   3.5 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 10: .\odin_size.exe
+  Time (mean ± σ):       3.1 ms ±   0.5 ms    [User: 1.1 ms, System: 3.3 ms]
+  Range (min … max):     2.4 ms …   9.9 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+
+Benchmark 11: .\msvc_cpp_Os.exe
+  Time (mean ± σ):       2.7 ms ±   0.3 ms    [User: 1.4 ms, System: 3.9 ms]
+  Range (min … max):     2.2 ms …   6.1 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+
+Benchmark 12: .\odin_speed.exe
+  Time (mean ± σ):       3.1 ms ±   0.4 ms    [User: 1.4 ms, System: 4.6 ms]
+  Range (min … max):     2.5 ms …   5.7 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+
+Benchmark 13: .\zig_cpp_O3.exe
+  Time (mean ± σ):       3.3 ms ±   1.0 ms    [User: 1.1 ms, System: 3.5 ms]
+  Range (min … max):     2.4 ms …  11.0 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+
+Benchmark 14: .\cpp_O3.exe
+  Time (mean ± σ):       2.9 ms ±   0.3 ms    [User: 1.7 ms, System: 3.7 ms]
+  Range (min … max):     2.4 ms …   5.3 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+
+Benchmark 15: .\zig_win_safe.exe
+  Time (mean ± σ):       2.9 ms ±   0.3 ms    [User: 1.9 ms, System: 4.0 ms]
+  Range (min … max):     2.4 ms …   4.6 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 16: .\zig_cpp_Os.exe
+  Time (mean ± σ):       3.0 ms ±   0.3 ms    [User: 0.3 ms, System: 1.1 ms]
+  Range (min … max):     2.5 ms …   4.6 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 17: .\cs_publishAOT.exe
+  Time (mean ± σ):       5.5 ms ±   0.4 ms    [User: 3.2 ms, System: 5.7 ms]
+  Range (min … max):     4.7 ms …   7.4 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 18: .\zig_cpp_O2.exe
+  Time (mean ± σ):       3.1 ms ±   0.2 ms    [User: 0.4 ms, System: 3.9 ms]
+  Range (min … max):     2.6 ms …   4.5 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Benchmark 19: .\cs\bin\Release\net8.0\cs.exe
+  Time (mean ± σ):      19.1 ms ±   1.2 ms    [User: 12.0 ms, System: 9.7 ms]
+  Range (min … max):    16.7 ms …  29.0 ms    400 runs
+
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+
+Benchmark 20: .\msvc_cpp_O3.exe
+  Time (mean ± σ):       3.0 ms ±   0.3 ms    [User: 1.0 ms, System: 2.2 ms]
+  Range (min … max):     2.5 ms …   4.3 ms    400 runs
+
+  Warning: Command took less than 5 ms to complete. Note that the results might be inaccurate because hyperfine can not calibrate the shell startup time much more precise than this limit. You can try to use the `-N`/`--shell=none` option to disable the shell completely.
+
+Summary
+  .\zig_speed.exe ran
+    1.40 ± 1.17 times faster than .\zig_size.exe
+    1.86 ± 1.38 times faster than .\zig_safe.exe
+    2.06 ± 1.53 times faster than .\zig_win_speed.exe
+    2.16 ± 1.60 times faster than .\zig_win_size.exe
+    2.28 ± 1.69 times faster than .\cpp_O2.exe
+    2.34 ± 1.74 times faster than .\cpp_Os.exe
+    2.38 ± 1.77 times faster than .\msvc_cpp_Os.exe
+    2.55 ± 1.90 times faster than .\cpp_O3.exe
+    2.55 ± 1.89 times faster than .\zig_win_safe.exe
+    2.56 ± 1.90 times faster than .\rust.exe
+    2.63 ± 1.95 times faster than .\odin_aggressive.exe
+    2.64 ± 1.95 times faster than .\msvc_cpp_O3.exe
+    2.64 ± 1.96 times faster than .\zig_cpp_Os.exe
+    2.67 ± 1.97 times faster than .\zig_cpp_O2.exe
+    2.72 ± 2.04 times faster than .\odin_size.exe
+    2.74 ± 2.04 times faster than .\odin_speed.exe
+    2.86 ± 2.29 times faster than .\zig_cpp_O3.exe
+    4.80 ± 3.54 times faster than .\cs_publishAOT.exe
+   16.61 ± 12.25 times faster than .\cs\bin\Release\net8.0\cs.exe

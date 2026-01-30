@@ -1,0 +1,18 @@
+Summary
+  .\zig_speed.exe ran
+    1.05 ± 0.15 times faster than .\zig_size.exe
+    1.23 ± 0.20 times faster than .\zig_safe.exe
+    1.34 ± 0.18 times faster than .\cpp_O2.exe
+    1.37 ± 0.18 times faster than .\cpp_Os.exe
+    1.41 ± 0.21 times faster than .\rust.exe
+    1.47 ± 0.20 times faster than .\msvc_cpp_Os.exe
+    1.50 ± 0.24 times faster than .\odin_size.exe
+    1.52 ± 0.19 times faster than .\cpp_O3.exe
+    1.53 ± 0.19 times faster than .\odin_aggressive.exe
+    1.59 ± 0.23 times faster than .\zig_cpp_Os.exe
+    1.62 ± 0.38 times faster than .\zig_cpp_O3.exe
+    1.63 ± 0.20 times faster than .\msvc_cpp_O3.exe
+    1.63 ± 0.21 times faster than .\zig_cpp_O2.exe
+    1.63 ± 0.21 times faster than .\odin_speed.exe
+    2.79 ± 0.33 times faster than .\cs_publishAOT.exe
+    9.43 ± 1.10 times faster than .\cs\bin\Release\net8.0\cs.exe

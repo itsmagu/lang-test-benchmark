@@ -26,6 +26,9 @@ cp .\target\release\rust.exe ..\rust.exe
 cd ..
 echo "Building Zig"
 cd .\zig\
+zig build-exe .\main2.zig -O ReleaseFast -femit-bin="../zig_win_speed.exe" -fstrip -lc -target native-native-msvc -luser32
+zig build-exe .\main2.zig -O ReleaseSmall -femit-bin="../zig_win_size.exe" -fstrip -lc -target native-native-msvc -luser32
+zig build-exe .\main2.zig -O ReleaseSafe -femit-bin="../zig_win_safe.exe" -fstrip -lc -target native-native-msvc -luser32
 zig build-exe .\main.zig -O ReleaseFast -femit-bin="../zig_speed.exe" -fstrip
 zig build-exe .\main.zig -O ReleaseSmall -femit-bin="../zig_size.exe" -fstrip
 zig build-exe .\main.zig -O ReleaseSafe -femit-bin="../zig_safe.exe" -fstrip
@@ -54,4 +57,5 @@ cl /c .\cpp\main.cpp /O2
 link .\main.obj
 mv .\main.exe msvc_cpp_O3.exe -Force
 rm .\main.obj
-# hyperfine --warmup 200 --runs 500 .\zig_speed.exe .\zig_size.exe .\rust.exe .\cpp_O2.exe .\cpp_Os.exe .\odin_aggressive.exe .\zig_safe.exe .\odin_size.exe .\msvc_cpp_O2.exe  .\odin_speed.exe .\zig_cpp_O3.exe .\cpp_O3.exe  .\zig_cpp_Os.exe .\cs_publishAOT.exe .\zig_cpp_O2.exe .\cs\bin\Release\net8.0\cs.exe .\msvc_cpp_O3.exe
+hyperfine --warmup 100 --runs 400 .\zig_speed.exe .\zig_size.exe .\zig_win_speed.exe .\rust.exe .\cpp_O2.exe .\zig_win_size.exe .\cpp_Os.exe .\odin_aggressive.exe .\zig_safe.exe .\odin_size.exe .\msvc_cpp_Os.exe  .\odin_speed.exe .\zig_cpp_O3.exe .\cpp_O3.exe .\zig_win_safe.exe .\zig_cpp_Os.exe .\cs_publishAOT.exe .\zig_cpp_O2.exe .\cs\bin\Release\net8.0\cs.exe .\msvc_cpp_O3.exe
+# hyperfine --warmup 100 --runs 400 .\zig_speed.exe Cool .\zig_size.exe Cool .\zig_win_speed.exe Cool .\rust.exe Cool .\cpp_O2.exe Cool .\zig_win_size.exe Cool .\cpp_Os.exe Cool .\odin_aggressive.exe Cool .\zig_safe.exe Cool .\odin_size.exe Cool .\msvc_cpp_Os.exe Cool .\odin_speed.exe Cool .\zig_cpp_O3.exe Cool .\cpp_O3.exe Cool .\zig_win_safe.exe Cool .\zig_cpp_Os.exe Cool .\cs_publishAOT.exe Cool .\zig_cpp_O2.exe Cool .\cs\bin\Release\net8.0\cs.exe Cool .\msvc_cpp_O3.exe Cool
